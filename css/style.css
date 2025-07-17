@@ -202,22 +202,35 @@ nav a:hover::after {
   padding: 0.5rem 0;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
 }
-
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 3rem;
+  gap: 20px;
+  justify-content: center; 
+  padding: 20px;
+}
+.skills-list li {
+  background: #44475a;
+  padding: 1.5rem 1.5rem;
+  border-radius: 10px; 
+  font-weight: 600;
+  border: 2px solid #50fa7a73;
+  transition: 0.3s ease;
+  /* width: fit-content;
+  display: inline-block;
+  height: fit-content; */
 }
 
 .skills-list li {
   background: #44475a;
   padding: 1.5rem 1.5rem;
-  border-radius: 16px;
+  border-radius: 10px;
   font-weight: 600;
   border: 3px solid rgba(80, 250, 123, 0.3);
   transition: 0.3s ease;
+  width: 100px;
+  text-align: center;
+  
   
 }
 
